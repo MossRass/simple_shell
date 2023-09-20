@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * _strcmp - compares two strings
- * @s1: string 1
- * @s2: string 2
+ * _strcmp - compares two str
+ * @s1: str 1
+ * @s2: str 2
  *
  * Return: 0 on success, -1 on fail
  */
@@ -22,10 +22,10 @@ int _strcmp(char *s1, char *s2)
 }
 
 /**
- * _strncmp - function to compare strings
- * @s1: first string to compare
- * @s2: second string to compare
- * @len: length of string to compare
+ * _strncmp - funct to compare str
+ * @s1: 1st str to compare
+ * @s2: 2st str to compare
+ * @len: len of str to compare
  * Return: 0 for success
  */
 
@@ -44,9 +44,9 @@ int _strncmp(char *s1, char *s2, int len)
 	return (0);
 }
 /**
- * _strcat - concatenates two strings
- * @dest: the destination string
- * @src: the source string
+ * _strcat - add two str
+ * @dest: destination str
+ * @src: source str
  *
  * Return: pointer to dest.
  */
@@ -74,10 +74,10 @@ char *_strcat(char *dest, char *src)
 	return (dest);
 }
 /**
- * _strdup - duplicates one string into another
- * @str: the string to be duplicated
+ * _strdup - duplicates one str into another
+ * @str: the str to be duplicated
  *
- * Return: a pointer to a duplicate of the string
+ * Return: a pointer to a duplicate of the str
  */
 char *_strdup(char *str)
 {
@@ -100,9 +100,9 @@ char *_strdup(char *str)
 }
 
 /**
- * numcount - function to count number of tokens that will be created
- * @line: input to check number of tokens to make out of
- * Return: number of tokens to make
+ * numcount - funct to count num of tokens that will be created
+ * @line: input to check num of tokens to make out of
+ * Return: num of tokens to make
  */
 
 int numcount(char *line)

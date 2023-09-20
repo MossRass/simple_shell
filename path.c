@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
  * _strcpy - copies str from src to dest
- * @src: source string
- * @dest: destination string
- * Return: pointer to destination string
+ * @src: source str
+ * @dest: destination str
+ * Return: pointer to destination str
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -22,8 +22,8 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * executepath - function to access PATH
- * @p: directory in PATH to access
+ * executepath - func to access PATH
+ * @p: diret in PATH to access
  * @tokens: array of tokens to check
  */
 void executepath(char *p, char **tokens)
@@ -62,7 +62,7 @@ void executepath(char *p, char **tokens)
 }
 
 /**
- * searchpath - function to search PATH
+ * searchpath - funct to search PATH
  * @p: part of PATH to search
  * @tokens: array of tokens
  * Return: 0 for success
@@ -106,8 +106,8 @@ int searchpath(char *p, char **tokens)
 }
 
 /**
- * findonpath - find PATH in environ
- * @tokens: token to pass along to PATH
+ * findonpath - find PATH in env
+ * @tokens: token to go along to PATH
  * Return: 0 for success
  */
 

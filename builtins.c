@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * checkbltin - checks if the command entered is a built-in
- * @line: input entered by user
- * @ar: array that can be handled by execve
- * @newline: duplicate of line
- * @array: Tokens to check
+ * checkbltin - check command entered is a built-in
+ * @line: input typed by user
+ * @ar: array execve
+ * @newline: copy of line
+ * @array: Token to check
  * Return: Return depends upon if the built-in was found
  */
 int checkbltin(char *line, char **ar, char *newline, char **array)
@@ -32,8 +32,8 @@ int checkbltin(char *line, char **ar, char *newline, char **array)
 	return (0);
 }
 /**
- * changedir - changes directory to ar
- * @ar: the directory to change to or nothing
+ * changedir - cd to ar
+ * @ar: directory to change to or nothing
  */
 void changedir(char **ar)
 {

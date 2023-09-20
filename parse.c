@@ -2,8 +2,8 @@
 /**
  * parse - function to convert user input to tokens
  * @line: input to be parsed
- * @num_tokens: number of tokens
- * @argv: array of arguments
+ * @num_tokens: num of tokens
+ * @argv: array of args
  * @cmdcount: number of commands that have been entered
  * Return: return 0 upon sucess
  */
@@ -42,7 +42,7 @@ int parse(char *line, int num_tokens, char **argv, int cmdcount)
 }
 
 /**
- * myfree - function to free memory
+ * myfree - func to free memory
  * @line: line to be freed
  * @ar: array to be freed
  * @newline: line to be freed

@@ -4,10 +4,10 @@
  * exe - function to execute new processes
  * @line: input from user
  * @ar: array to be handled by execve
- * @nln: duplicate of line
+ * @nln: copy of line
  * @arry: Tokens to check
- * @argv: arguments
- * @flcnt: number of commands that have failed
+ * @argv: args
+ * @flcnt: num of commands that have failed
  * Return: 0 for success
  */
 

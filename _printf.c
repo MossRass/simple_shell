@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * _printf - prints strings with formatted variables
- * @format: the string to format and print
+ * _printf - prints str with formatted vars
+ * @format: the str to format and print
  *
- * Return: the number of chars printed
+ * Return: the num of chars printed
  */
 int _printf(const char *format, ...)
 {
@@ -46,12 +46,12 @@ int _printf(const char *format, ...)
 }
 
 /**
- * chkfmt - checks the format modifer
- * @args: argument pointer
- * @format: the string
+ * chkfmt - checks format modifer
+ * @args: arg pointer
+ * @format: the str
  * @i: the location of the modifer
  *
- * Return: count of anything printed
+ * Return: total of anything printed
  */
 int chkfmt(va_list *args, const char *format, int i)
 {
@@ -92,8 +92,8 @@ int chkfmt(va_list *args, const char *format, int i)
 }
 
 /**
- * getdigits - gets digits
- * @n: int to get digits from
+ * getdigits - brings digits
+ * @n: int to bring digits from
  */
 void getdigits(int n)
 {
@@ -105,10 +105,10 @@ void getdigits(int n)
 	}
 }
 /**
- * prdgt - prints digit passed from _printf
- * @args: argument pointer
+ * prdgt - print digit passed from _printf
+ * @args: argum pointer
  *
- * Return: count of digits and signs printed
+ * Return: num of digits and signs printed
  */
 int prdgt(va_list *args)
 {

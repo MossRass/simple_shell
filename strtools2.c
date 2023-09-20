@@ -1,8 +1,9 @@
 #include "holberton.h"
 
+
 /**
- * _puts - functiont to write strinng to standard out
- * @str: string to write
+ * _puts - funct to write str to standard out
+ * @str: str to write
  */
 
 void _puts(char *str)
@@ -15,10 +16,10 @@ void _puts(char *str)
 }
 
 /**
- * prstr - prints strings from arg
- * @args: argument pointer
+ * prstr - prints str from arg
+ * @args: arg pointer
  *
- * Return: count of string elements printed
+ * Return: count of str elements printed
  */
 int prstr(va_list *args)
 {
@@ -35,8 +36,8 @@ int prstr(va_list *args)
 	return (x);
 }
 /**
- * _putchar - writes the character c to sterr
- * @c: The character to print
+ * _putchar - writes the char c to str
+ * @c: The char to print
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
